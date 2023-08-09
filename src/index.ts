@@ -26,7 +26,7 @@ server.listen(8080, () => {
 });
 
 const MONGO_URL =
-  "mongodb+srv://supriyo:corona2021@cluster0.l1bktwu.mongodb.net/?retryWrites=true&w=majority";
+  "mongourl";
 
 mongoose.Promise = Promise;
 mongoose.connect(MONGO_URL);
